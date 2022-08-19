@@ -19,12 +19,20 @@ function decimalToHexadecimal(blob) {
 
 /* Base 2 to base 10 */
 function binaryToDecimal(blob) {
+
+
+  return parseInt(blob.slice(2), 2)
   // Your code here
+  
 }
+
+
+
 
 /* Base 16 to base 10 */
 function hexadecimalToDecimal(blob) {
   // Your code here
+  return parseInt(blob.slice(2), 16)
 }
 
 // console.log('Decimal to binary:')
